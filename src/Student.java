@@ -1,7 +1,7 @@
 public class Student extends Person{
     //private int id;
     private double gpa;
-    private double money = 36600;
+    private double money = 36600.00;
     private static int countId = 0;
 
     public Student (String name, String surname, double gpa) {
@@ -12,6 +12,7 @@ public class Student extends Person{
         super(name, surname);
         this.gpa = gpa;
     }
+
 
     @Override
     public String toString() {
