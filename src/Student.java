@@ -1,10 +1,10 @@
 public class Student extends Person{
-    //private int id;
+    private int id;
     private double gpa;
     private double money = 36600.00;
     private static int countId = 0;
 
-    public Student (String name, String surname, double gpa) {
+    public Student() {
         this.id = countId++;
     }
 
